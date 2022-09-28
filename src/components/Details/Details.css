@@ -1,4 +1,52 @@
 .details-container{
     background-color:aliceblue;
-    height: 800px; 
+    height: 100%; 
+}
+.my-info{
+    padding: 0 30px 30px;
+    margin: 0 30px 30px;
+    text-align: center;
+    background-color: rgb(236, 234, 232);
+    border-radius: 20px;
+}
+
+.my-info h3{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.exercise-details{
+    padding-left: 20px;
+}
+.exercise-details-time{
+    background-color: rgb(236, 234, 232);
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+
+.break{
+    display: flex;
+    background-color: rgb(236, 234, 232);
+    padding: 10px 0;
+    border-radius: 20px;
+    
+}
+.break p{
+    margin: 5px;
+    padding:  12px;
+    background-color: white;
+    border-radius: 60px;
+}
+
+
+
+button{
+    text-align: center;
+    background-color: #345eeb;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
 }
