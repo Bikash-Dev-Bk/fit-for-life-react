@@ -1,0 +1,27 @@
+.exercise img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.exercise{
+    background-color:aliceblue;
+    height: 580px;
+    width: 320px;
+    border: 1px solid rgb(174, 171, 171);
+    border-radius: 10px;
+    position: relative;
+}
+
+.exercise-info{
+    text-align: center;
+}
+.btn-add{
+    background-color: #345eeb;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
