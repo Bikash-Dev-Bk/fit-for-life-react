@@ -40,9 +40,7 @@
     border-radius: 60px;
 }
 
-
-
-button{
+.btn-activity{
     text-align: center;
     background-color: #345eeb;
     color: white;
@@ -50,3 +48,17 @@ button{
     border: none;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 700px) {
+    
+    .exercise-details{
+        padding-left: 0;
+    }
+    .exercise-details-time{
+        margin: 0;
+    }
+    .break p{
+        margin-left: 20px;
+    }
+    
+  }

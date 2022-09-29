@@ -29,7 +29,7 @@ const Details = () => {
                 <p className='exercise-details-time'>Break time</p>
             </div>
 
-            <button><p>Activity Completed</p></button>
+            <button className='btn-activity'><p>Activity Completed</p></button>
             
         </div>
     );
