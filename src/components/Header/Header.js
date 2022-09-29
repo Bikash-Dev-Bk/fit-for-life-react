@@ -1,11 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import {  faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import './Header.css'
 
 const Header = () => {
     return (
         <nav className='header'>
             <div className='header-name'>
-                <h1>FIT-FOR-LIFE</h1>
+                <FontAwesomeIcon className='dumbbell' icon={faDumbbell} />
+                <h1>FIT FOR LIFE</h1>
             </div>
             <div >
                 <a href="/home">Home</a>

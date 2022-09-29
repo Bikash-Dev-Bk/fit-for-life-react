@@ -1,7 +1,13 @@
 import React from 'react';
 import './Details.css'
 
-const Details = () => {
+const Details = (props) => {
+    const {list} = props;
+    
+    let exerciseTime = 0;
+    for(const exercise of list){
+        exerciseTime = exerciseTime + exercise.time;
+    }
     return (
         <div className='details-container'>
             <div className='my-info'>
@@ -25,8 +31,8 @@ const Details = () => {
             
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
-                <p className='exercise-details-time'>Exercise time</p>
-                <p className='exercise-details-time'>Break time</p>
+                <p className='exercise-details-time'>Exercise time : {exerciseTime}s</p>
+                <p className='exercise-details-time'>Break time : </p>
             </div>
 
             <button className='btn-activity'><p>Activity Completed</p></button>

@@ -4,7 +4,7 @@
       "name": "Plank",
       "info": "Planks, or plank variations, are great exercises to include in your workouts one to two times a week, though if your goal is to specifically get better at them, you may want to increase that to two to three, says Dorworth.",
       "img": "https://media.self.com/photos/615378c1150f8742ac896749/16:9/w_4991,h_2807,c_limit/Forearm%20Plank%20-%20Delise_001.jpg",
-      "time": "120s",
+      "time": 120,
       "age": "15-45"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Push Up",
         "info": "Many people do more than 300 push-ups a day. But for an average person, even 50 to 100 push-ups should be enough to maintain a good upper body, provided it is done properly.",
         "img": "https://www.athletico.com/wp-content/uploads/2020/04/stay-home-fitness-challenge-featured.jpg",
-        "time": "100s",
+        "time": 100,
         "age": "15-45"
       },
     {
@@ -20,7 +20,7 @@
         "name": "Pull Up",
         "info": "The pullup is one of the most effective exercises for strengthening the back muscles.You should only train the pull-up no more than two to three times per week. Anywhere from 15 to 24 pull-ups per workout is a good number to shoot for.",
         "img": "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt72d2fa4ab225287f/5de0ba1b9320eb62564f29b9/building_to_a_strict_pullup_header.jpg?format=pjpg&auto=webp&quality=76&width=1232",
-        "time": "50s",
+        "time": 50,
         "age": "15-45"
       },
     {
@@ -28,7 +28,7 @@
         "name": "Bench Press",
         "info": "6–10 reps: benching for 6–10 reps is great for increasing both muscle size and strength, and makes for a good default for most people. 11–15 reps: benching for 11–15 reps is great for stimulating muscle growth, but it's a bit harder to translate it into a 1-rep or even 5-rep max.",
         "img": "https://www.bodybuilding.com/images/2018/august/a-girls-gotta-bench-chest-workout-and-training-tips-header-960x540.jpg",
-        "time": "50s",
+        "time": 50,
         "age": "15-45"
       },
     {
@@ -36,7 +36,7 @@
         "name": "Running",
         "info": "Long runs have many benefits: builds muscle/heart strength, improves endurance, and teaches the body to burn fat rather than glycogen as a fuel source. They differ based on your current fitness level and the overall distance that you're trying to achieve (like 5K or a marathon).",
         "img": "https://post.healthline.com/wp-content/uploads/2021/06/running-runner-1200x628-facebook.jpg",
-        "time": "300s",
+        "time": 300,
         "age": "10-50"
       },
     {
@@ -44,7 +44,7 @@
         "name": "Hammer Curl",
         "info": "Hammer curls target the long head of the bicep as well as the brachialis (another muscle in the upper arm) and the brachioradialis (one of the key forearm muscles). The hammer curl is a relatively simple exercise that beginners can quickly master.",
         "img": "https://cdn.mos.cms.futurecdn.net/YSDfx6gNX3ij76EaBeBJbZ.jpg",
-        "time": "200s",
+        "time": 200,
         "age": "15-40"
       }
 ]
