@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import './Details.css'
 
 const Details = (props) => { 
@@ -9,12 +9,15 @@ const Details = (props) => {
     }
 
     const [rest, setRest] = useState(0);
-
+    useEffect( ()=>{
+        const time = localStorage.getItem('time')
+        setRest (time);
+    },[])
     const handleAddABreak = (e) => {
         const restTime = e.target.innerText;
+        localStorage.setItem('time',restTime);
         setRest (restTime);
     }
-
 
     return (
         <div className='details-container'>
