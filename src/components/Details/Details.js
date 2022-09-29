@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import './Details.css'
 
 const Details = (props) => { 
@@ -7,6 +7,15 @@ const Details = (props) => {
     for(const exercise of list){
         exerciseTime = exerciseTime + exercise.time;
     }
+
+    const [rest, setRest] = useState(0);
+
+    const handleAddABreak = (e) => {
+        const restTime = e.target.innerText;
+        setRest (restTime);
+    }
+
+
     return (
         <div className='details-container'>
             <div className='my-info'>
@@ -19,18 +28,17 @@ const Details = (props) => {
             <div className='break-container'>
                 <h2>Add A Break</h2>
                 <div className='break'>
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
+                    <button onClick={handleAddABreak}>10s</button>
+                    <button onClick={handleAddABreak}>20s</button>
+                    <button onClick={handleAddABreak}>30s</button>
+                    <button onClick={handleAddABreak}>40s</button>
+                    <button onClick={handleAddABreak}>50s</button>
                 </div>
             </div>           
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
-                <p className='exercise-details-time'>Exercise time : {exerciseTime}s</p>
-                <p className='exercise-details-time'>Break time : </p>
+                <p className='exercise-details-time'>Exercise time : {exerciseTime} seconds</p>
+                <p className='exercise-details-time'>Break time : {rest}</p>
             </div>
             <button className='btn-activity'><p>Activity Completed</p></button>
             

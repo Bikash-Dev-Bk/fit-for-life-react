@@ -6,7 +6,7 @@ import Details from '../Details/Details';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
-    const [list , setList] = useState([])
+    const [list , setList] = useState([]);
 
     useEffect( ()=>{
 
@@ -20,6 +20,7 @@ const Gym = () => {
         const newList = [...list, exercise];
         setList(newList);
     }
+    
     return (
         <div className="gym-container">
             <div className="exercise-container">
@@ -32,7 +33,7 @@ const Gym = () => {
                 }
             </div>
             <div className="exercise-details">
-                <Details list = {list}></Details>
+                <Details list = {list} ></Details>
             </div>
         </div>
     );
