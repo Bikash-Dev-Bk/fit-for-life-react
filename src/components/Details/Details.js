@@ -1,5 +1,9 @@
 import React, {  useEffect, useState } from 'react';
-import './Details.css'
+import './Details.css';
+import toast, { Toaster } from 'react-hot-toast';
+
+
+const myToast = () => toast.success('Congratulation to me, I am successfully done Assignment 8!');
 
 const Details = (props) => { 
     const {list} = props;
@@ -43,7 +47,8 @@ const Details = (props) => {
                 <p className='exercise-details-time'>Exercise time : {exerciseTime} seconds</p>
                 <p className='exercise-details-time'>Break time : {rest}</p>
             </div>
-            <button className='btn-activity'><p>Activity Completed</p></button>
+            <button className='btn-activity' onClick={myToast}><p>Activity Completed</p></button>
+            <Toaster />
             
         </div>
     );
