@@ -1,9 +1,8 @@
 import React from 'react';
 import './Details.css'
 
-const Details = (props) => {
+const Details = (props) => { 
     const {list} = props;
-    
     let exerciseTime = 0;
     for(const exercise of list){
         exerciseTime = exerciseTime + exercise.time;
@@ -16,25 +15,23 @@ const Details = (props) => {
                 <p>Age: 25 years</p>
                 <p>Height: 5.8 feet</p>
                 <p>Weight: 70 KG</p>
-            </div>
-            
+            </div>          
             <div className='break-container'>
                 <h2>Add A Break</h2>
                 <div className='break'>
-                    <p>10s</p>
-                    <p>20s</p>
-                    <p>30s</p>
-                    <p>40s</p>
-                    <p>50s</p>
+                    <button>10s</button>
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                    <button>50s</button>
                 </div>
-            </div>
-            
+            </div>           
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
                 <p className='exercise-details-time'>Exercise time : {exerciseTime}s</p>
                 <p className='exercise-details-time'>Break time : </p>
             </div>
-
             <button className='btn-activity'><p>Activity Completed</p></button>
             
         </div>
